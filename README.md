@@ -3,3 +3,4 @@ Project : Guitar Chord Recognition System Using MFCC and Artificial Neural Netwo
 	The signal processing began with preprocessing, which included signal normalization, signal trimming, frame blocking, windowing, and Fourier Transform (FFT) to obtain the frequency spectrum. Feature extraction was then performed using MFCC (Mel-Frequency Cepstral Coefficients) to efficiently represent the frequency characteristics of each chord.
 	The dataset consisted of 7 major chords (C, D, E, F, G, A, B). Each chord had 3 different variations, and each variation was recorded 50 times. From the 50 recordings per variation, 30 recordings were used for training and 20 recordings for testing. 
 	The extracted MFCC features were then used as input for the Backpropagation Neural Network (BPNN).
+	Videos are available for each of the three chord variations (Variation 1, 2, and 3), illustrating how the chords were played and captured during the data collection process.
